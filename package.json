@@ -1,0 +1,45 @@
+{
+  "name": "dsh-structured-output",
+  "version": "1.2.9",
+  "type": "module",
+  "description": "Adaptive responses for DeepSeek Harness: concise for simple questions, structured when the task calls for it.",
+  "license": "MIT",
+  "author": "superltmajor-pixel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superltmajor-pixel/dsh-structured-output.git"
+  },
+  "homepage": "https://github.com/superltmajor-pixel/dsh-structured-output#readme",
+  "bugs": "https://github.com/superltmajor-pixel/dsh-structured-output/issues",
+  "keywords": ["dsh-plugin", "deepseek-harness", "structured-output"],
+  "scripts": {
+    "test": "node tests/boot-check.mjs"
+  },
+  "engines": {
+    "dsh": "0.2.2-rc.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -11,7 +11,19 @@
   },
   "homepage": "https://github.com/superltmajor-pixel/dsh-structured-output#readme",
   "bugs": "https://github.com/superltmajor-pixel/dsh-structured-output/issues",
-  "keywords": ["dsh-plugin", "deepseek-harness", "structured-output"],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "deepseek",
+    "structured-output",
+    "prompt-engineering",
+    "system-prompt",
+    "llm",
+    "ai",
+    "response-quality",
+    "formatting"
+  ],
   "scripts": {
     "test": "node tests/boot-check.mjs"
   },
